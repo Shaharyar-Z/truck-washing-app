@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,8 +16,8 @@ const Header = () => {
       >
         <div class="nav-block">
           <div class="nav">
-            <a
-              href="/"
+            <Link
+              to="/"
               aria-current="page"
               class="brand w-nav-brand w--current"
               aria-label="home"
@@ -29,7 +30,7 @@ const Header = () => {
                 alt=""
                 class="logo"
               />
-            </a>
+            </Link>
           </div>
           <div class="nav">
             <nav role="navigation" class="nav-menu w-nav-menu">
@@ -48,7 +49,7 @@ const Header = () => {
                   </font>
                 </font>
               </a>
-              <a href="/a-propos" class="nav-link w-nav-link">
+              <Link to="/about-us" class="nav-link w-nav-link">
                 <font
                   style={{
                     verticalAlign: "inherit",
@@ -62,7 +63,7 @@ const Header = () => {
                     About
                   </font>
                 </font>
-              </a>
+              </Link>
               <a href="/blog" class="nav-link w-nav-link">
                 <font
                   style={{
@@ -78,7 +79,7 @@ const Header = () => {
                   </font>
                 </font>
               </a>
-              <a href="/contact" class="nav-button">
+              <Link to="/contact-us" class="nav-button">
                 <font
                   style={{
                     verticalAlign: "inherit",
@@ -92,7 +93,7 @@ const Header = () => {
                     get a quote
                   </font>
                 </font>
-              </a>
+              </Link>
             </nav>
             <div
               class="menu-button w-nav-button"
