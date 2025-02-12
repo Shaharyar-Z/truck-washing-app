@@ -130,7 +130,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          TREE FELLING
+                          Mining and Heavy Equipment Cleaning
                         </font>
                       </font>
                     </h2>
@@ -211,7 +211,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          PRUNING
+                          Truck and Fleet Washing
                         </font>
                       </font>
                     </h2>
@@ -293,7 +293,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          STUMP GRINDING
+                          Commercial and Industrial Pressure Washing
                         </font>
                       </font>
                     </h2>
@@ -384,7 +384,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          DEFORESTATION
+                          Graffiti Removal
                         </font>
                       </font>
                     </h2>
@@ -473,7 +473,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          SHREDDING
+                          Concrete, Driveway and Surface Cleaning and Degreasing
                         </font>
                       </font>
                     </h2>
@@ -560,7 +560,7 @@ const Services = () => {
                             verticalAlign: "inherit",
                           }}
                         >
-                          HEDGE TRIMMING
+                          Sterilisation and Heated Deep Cleaning
                         </font>
                       </font>
                     </h2>
@@ -578,6 +578,89 @@ const Services = () => {
                           Hedge trimming service involves cutting and shaping
                           hedges in a precise and aesthetic manner, maintaining
                           their density, shape and health.
+                        </font>
+                      </font>
+                    </p>
+                    <div class="read-text-block">
+                      <div class="read-text">
+                        <font
+                          style={{
+                            verticalAlign: "inherit",
+                          }}
+                        >
+                          <font
+                            style={{
+                              verticalAlign: "inherit",
+                            }}
+                          >
+                            Learn more
+                          </font>
+                        </font>
+                      </div>
+                      <img
+                        src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/64668e05ceb4d8ba0fa67957_tiny_arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="service-arrow"
+                        style={{
+                          opacity: 1,
+                          transform:
+                            "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                          transformStyle: "preserve-3d",
+                        }}
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div role="listitem" class="service-card-item w-dyn-item">
+                  <a
+                    data-w-id="c46c67c4-9392-ebaa-4446-b0b0ead6a4d7"
+                    style={{
+                      opacity: 1,
+                      transform:
+                        "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                      transformStyle: "preserve-3d",
+                    }}
+                    href="/services/urgence"
+                    class="service-card w-inline-block"
+                  >
+                    <img
+                      loading="lazy"
+                      alt=""
+                      src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa67902/646936836dbd64a64808a962_Asset%201-20.jpg"
+                      class="icon"
+                    />
+                    <div class="spacer _24"></div>
+                    <h2 class="heading">
+                      <font
+                        style={{
+                          verticalAlign: "inherit",
+                        }}
+                      >
+                        <font
+                          style={{
+                            verticalAlign: "inherit",
+                          }}
+                        >
+                          Newcastle’s Pressure Cleaning Specialists
+                        </font>
+                      </font>
+                    </h2>
+                    <p class="paragraph">
+                      <font
+                        style={{
+                          verticalAlign: "inherit",
+                        }}
+                      >
+                        <font
+                          style={{
+                            verticalAlign: "inherit",
+                          }}
+                        >
+                          The 24/7 emergency service provides rapid and
+                          specialized intervention to resolve dangerous, damaged
+                          or immediately risky tree problems, available at any
+                          time of the day or night.
                         </font>
                       </font>
                     </p>

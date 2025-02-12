@@ -2284,7 +2284,8 @@ figure {
 }
 
 .section-hero {
-  background-image: linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg);
+  /* background-image: linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg); */
+  background-image: linear-gradient(#0006,#0006),url("./../public/images/washing-services.jpg");
   background-position: 0 0,50% 0;
   background-repeat: repeat,no-repeat;
   background-size: auto,cover;
@@ -4339,7 +4340,8 @@ figure {
 
 @media screen and (min-width: 1280px) {
   .section-hero {
-      background-image:linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg);
+      /* background-image:linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg); */
+      background-image:linear-gradient(#0006,#0006),url("./../public/images/washing-services.jpg");
       background-position: 0 0,0%;
       border-radius: 0
   }

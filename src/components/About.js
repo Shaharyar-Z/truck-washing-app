@@ -1,4 +1,5 @@
 import React from "react";
+// import {graffitiRemoval} from "/images/graffiti-removal.jpg"
 
 const About = () => {
   return (
@@ -125,7 +126,7 @@ const About = () => {
             </div>
             <div class="block-image">
               <img
-                src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min.jpeg"
+                src="/images/graffiti-removal.jpg"
                 loading="lazy"
                 style={{
                   opacity: 1,
@@ -135,16 +136,16 @@ const About = () => {
                 }}
                 sizes="(max-width: 479px) 87vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, 92vw"
                 alt="Image of tree felling."
-                srcset="
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-500.jpeg   500w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-800.jpeg   800w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-1080.jpeg 1080w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-1600.jpeg 1600w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-2000.jpeg 2000w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-2600.jpeg 2600w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-3200.jpeg 3200w,
-            https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min.jpeg        4928w
-          "
+          //       srcset="
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-500.jpeg   500w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-800.jpeg   800w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-1080.jpeg 1080w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-1600.jpeg 1600w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-2000.jpeg 2000w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-2600.jpeg 2600w,
+          //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min-p-3200.jpeg 3200w,
+          // //   https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6468fde5a19474ee22e04104_AdobeStock_196691580-min.jpeg        4928w
+          // "
                 class="image"
               />
               <div

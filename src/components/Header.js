@@ -5,22 +5,22 @@ const Header = () => {
   return (
     <div>
       <div
-        data-animation="default"
-        data-collapse="medium"
-        data-duration="400"
-        data-easing="ease"
-        data-easing2="ease"
-        data-doc-height="1"
-        role="banner"
+        // data-animation="default"
+        // data-collapse="medium"
+        // data-duration="400"
+        // data-easing="ease"
+        // data-easing2="ease"
+        // data-doc-height="1"
+        // role="banner"
         class="navbar w-nav"
       >
         <div class="nav-block">
           <div class="nav">
             <Link
               to="/"
-              aria-current="page"
+              // aria-current="page"
               class="brand w-nav-brand w--current"
-              aria-label="home"
+              // aria-label="home"
             >
               <img
                 src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/64668f1950df97fea941538e_treez%20photo%20profil.jpg"
@@ -64,7 +64,7 @@ const Header = () => {
                   </font>
                 </font>
               </Link>
-              <a href="/blog" class="nav-link w-nav-link">
+              {/* <a href="/blog" class="nav-link w-nav-link">
                 <font
                   style={{
                     verticalAlign: "inherit",
@@ -78,7 +78,7 @@ const Header = () => {
                     blog
                   </font>
                 </font>
-              </a>
+              </a> */}
               <Link to="/contact-us" class="nav-button">
                 <font
                   style={{
@@ -100,12 +100,12 @@ const Header = () => {
               style={{
                 WebkitUserSelect: "text",
               }}
-              aria-label="menu"
-              role="button"
-              tabindex="0"
-              aria-controls="w-nav-overlay-0"
-              aria-haspopup="menu"
-              aria-expanded="false"
+              // aria-label="menu"
+              // role="button"
+              // tabindex="0"
+              // aria-controls="w-nav-overlay-0"
+              // aria-haspopup="menu"
+              // aria-expanded="false"
             >
               <div class="menu-icon w-icon-nav-menu"></div>
             </div>
