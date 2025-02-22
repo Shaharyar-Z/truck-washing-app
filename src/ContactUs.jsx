@@ -14,7 +14,7 @@ const ContactUs = () => {
           alt=""
           class="shape _02"
         />
-        <div class="content">
+        {/* <div class="content">
           <div class="w-layout-grid _2-column-grid">
             <div
               id="w-node-_2664a217-5423-eae1-1e5a-d54e861020ad-0fa678f8"
@@ -509,23 +509,13 @@ const ContactUs = () => {
               ></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div class="section">
         <div class="content">
           <div class="contact-info-block">
-            <div
-              id="w-node-_0accc89e-bfdb-6c69-4475-198cb737b11b-0fa678f8"
-              data-w-id="0accc89e-bfdb-6c69-4475-198cb737b11b"
-              style={{
-                transform:
-                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                opacity: 1,
-                transformStyle: "preserve-3d",
-              }}
-              class="contact-info"
-            >
+            <div class="contact-info">
               <img
                 src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/64668e05ceb4d8ba0fa67944_icons8-ringer-volume.svg"
                 loading="lazy"
@@ -533,72 +523,22 @@ const ContactUs = () => {
                 class="icon"
               />
               <div class="spacer _24"></div>
-              <h3 class="heading h5 white">
-                <font
-                  style={{
-                    verticalAlign: "inherit",
-                  }}
-                >
-                  <font
-                    style={{
-                      verticalAlign: "inherit",
-                    }}
-                  >
-                    Call us!
-                  </font>
-                </font>
-              </h3>
+              <h3 class="heading h5 white">Call us!</h3>
               <p class="paragraph white">
-                <font
-                  style={{
-                    verticalAlign: "inherit",
-                  }}
-                >
-                  <font
-                    style={{
-                      verticalAlign: "inherit",
-                    }}
-                  >
-                    For any questions regarding our services or in case of
-                    urgent need, please contact us at the number
-                  </font>
-                </font>
+                For any questions regarding our services or in case of urgent
+                need, please contact us at the number
                 <br />
-                <font
-                  style={{
-                    verticalAlign: "inherit",
-                  }}
-                >
-                  <font
-                    style={{
-                      verticalAlign: "inherit",
-                    }}
-                  >
-                    below!
-                  </font>
-                </font>
+                below!
               </p>
               <a href="tel:581-985-1074" class="contact-detail">
-                <font
-                  style={{
-                    verticalAlign: "inherit",
-                  }}
-                >
-                  <font
-                    style={{
-                      verticalAlign: "inherit",
-                    }}
-                  >
-                    581-985-1074
-                  </font>
-                </font>
+                581-985-1074
               </a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section">
+      {/* <div class="section">
         <img
           src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/64668e05ceb4d8ba0fa67947_shape_04.svg"
           loading="lazy"
@@ -614,7 +554,8 @@ const ContactUs = () => {
               <div
                 data-w-id="3cfc84ec-9a33-0170-96f6-6fa17c8860df"
                 style={{
-                  transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                  transform:
+                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                   opacity: 1,
                   transformStyle: "preserve-3d",
                 }}
@@ -637,7 +578,8 @@ const ContactUs = () => {
               <h2
                 data-w-id="3cfc84ec-9a33-0170-96f6-6fa17c8860e1"
                 style={{
-                  transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                  transform:
+                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                   opacity: 1,
                   transformStyle: "preserve-3d",
                 }}
@@ -682,7 +624,8 @@ const ContactUs = () => {
               id="w-node-e74bbb8c-1938-fc3c-ac9b-062f4f797696-0fa678f8"
               data-w-id="e74bbb8c-1938-fc3c-ac9b-062f4f797696"
               style={{
-                transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                transform:
+                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                 opacity: 1,
                 transformStyle: "preserve-3d",
               }}
@@ -732,7 +675,8 @@ const ContactUs = () => {
               id="w-node-_8e3b6219-2ac4-c646-b040-86b566b8153a-0fa678f8"
               data-w-id="8e3b6219-2ac4-c646-b040-86b566b8153a"
               style={{
-                transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                transform:
+                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                 opacity: 1,
                 transformStyle: "preserve-3d",
               }}
@@ -782,7 +726,8 @@ const ContactUs = () => {
               id="w-node-_2f473d3c-d8bc-a499-ea3d-ce0583d1d10b-0fa678f8"
               data-w-id="2f473d3c-d8bc-a499-ea3d-ce0583d1d10b"
               style={{
-                transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                transform:
+                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                 opacity: 1,
                 transformStyle: "preserve-3d",
               }}
@@ -833,7 +778,8 @@ const ContactUs = () => {
               id="w-node-fc65ec6d-ab58-74d7-bf31-f9770af64658-0fa678f8"
               data-w-id="fc65ec6d-ab58-74d7-bf31-f9770af64658"
               style={{
-                transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                transform:
+                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                 opacity: 1,
                 transformStyle: "preserve-3d",
               }}
@@ -884,7 +830,8 @@ const ContactUs = () => {
           <div
             data-w-id="a1667e0f-b3d2-09e0-c504-36bdc2d9f188"
             style={{
-              transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+              transform:
+                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
               opacity: 1,
               transformStyle: "preserve-3d",
             }}
@@ -937,9 +884,9 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </div>
-      <Contactus />
-      <Footer />
+      </div> */}
+      {/* <Contactus /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
