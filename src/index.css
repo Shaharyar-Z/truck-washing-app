@@ -2232,7 +2232,8 @@ figure {
 }
 
 .nav-link:hover,.nav-link.w--current {
-  color: var(--additional-accent)
+  color: var(--additional-accent);
+  cursor: pointer;
 }
 
 .brand {
@@ -2275,7 +2276,8 @@ figure {
 .nav-button:hover {
   border: 3px solid var(--white);
   background-color: var(--white);
-  color: var(--background-headers)
+  color: var(--background-headers);
+  cursor: pointer;
 }
 
 .nav-button.w--current {
@@ -2326,7 +2328,7 @@ figure {
   color: var(--white);
   max-width: 730px;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 70px;
   line-height: 100%
 }
@@ -2337,6 +2339,13 @@ figure {
   text-transform: uppercase;
   max-width: 730px;
   margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300
+}
+.hero-bio {
+  color: var(--white);
+  max-width: 730px;
+  margin-bottom: 75px;
   font-size: 16px;
   font-weight: 300
 }
@@ -2420,7 +2429,7 @@ figure {
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
-  display: flex
+  display: none
 }
 
 .hero-column-grid {
@@ -3018,7 +3027,8 @@ figure {
 }
 
 .footer-link:hover {
-  color: var(--additional-accent)
+  color: var(--additional-accent);
+  cursor: pointer;
 }
 
 .detail-footer-grid {
@@ -3618,14 +3628,20 @@ figure {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   direction: ltr;
-  color: var(--black);
   flex: 0 auto;
   max-width: 600px;
   margin-bottom: 0;
   font-weight: 500;
   text-decoration: none;
   display: flex;
-  position: static
+  position: static;
+  color: #000000c2;
+  font-size: 16px;
+  line-height: 200%;
+  transition: color .2s;
+}
+.paragraph.no-margin:hover {
+    color: var(--additional-accent);
 }
 
 .paragraph.no-max-width {
@@ -4263,6 +4279,14 @@ figure {
   grid-auto-columns: 1fr;
   display: grid
 }
+.service-collection-cards .service-card-item svg{
+  color: #e0a423;
+  width: 32px;
+  height: 32px;
+}
+.service-collection-cards .service-card-item h2{
+  font-size: 22px;
+}
 
 .image-licensing {
   border: 1px solid var(--accent-borders);
@@ -4337,11 +4361,32 @@ figure {
 .text-span,.text-span-2,.text-span-3 {
   color: var(--white)
 }
+.contact-us-sec{
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.call, .mail{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.7rem;
+  svg{
+    color: #e0a423;
+  }
+  span{
+    color: #fff;
+  }
+}
+
 
 @media screen and (min-width: 1280px) {
   .section-hero {
-      /* background-image:linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg); */
-      background-image:linear-gradient(#0006,#0006),url("./../public/images/washing-services.jpg");
+      background-image:linear-gradient(
+        rgba(0, 0, 0, 0.664),
+        rgba(0, 0, 0, 0.664)
+      ),url("./../public/images/washing-services.jpg");
       background-position: 0 0,0%;
       border-radius: 0
   }
@@ -4442,7 +4487,7 @@ figure {
   }
 
   .nav-link:hover {
-      background-color: var(--black)
+      background-color: var(--black);
   }
 
   .nav-link.top {
@@ -4452,6 +4497,7 @@ figure {
   }
 
   .nav-menu {
+    display: none;
       background-color: #c8c8c800;
       border-radius: 15px;
       margin-top: 15px;

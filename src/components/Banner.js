@@ -3,28 +3,32 @@ import React from "react";
 const Banner = () => {
   return (
     <div>
-      <div class="section-hero">
-        <div class="block-home-hero">
-          <div class="hero">
-            <div class="text-subtitle">PROFESSIONAL, SAFE, EFFICIENT.</div>
-            <h1 class="heading-hero">Cleaning Services</h1>
-            <div class="_2-button-block">
-              <a href="/contact" class="tertiary-button w-button">
+      <div className="section-hero">
+        <div className="block-home-hero">
+          <div className="hero">
+            <div className="text-subtitle">PROFESSIONAL, SAFE, EFFICIENT.</div>
+            <h1 className="heading-hero">Cleaning Services</h1>
+            <p className="hero-bio">
+              At FLEETEX, we don't just wash-we restore. Your fleet, your
+              property, your equipment deserves a clean that lasts. With heated
+              pressure washing, we strip away the toughest grime, so you don't
+              have to. Because clean isn't just a look-it's your reputation.
+            </p>
+            <div className="_2-button-block">
+              <a href="/contact" className="tertiary-button w-button">
                 GET A QUOTE
               </a>
             </div>
           </div>
         </div>
-        <div class="hero-bottom-feature">
-          <div class="w-layout-grid hero-column-grid">
-            <div class="scroll-indicator-block">
-              <div class="scroll-indicator">
-                <div class="indicator-fill"></div>
+        <div className="hero-bottom-feature">
+          <div className="w-layout-grid hero-column-grid">
+            <div className="scroll-indicator-block">
+              <div className="scroll-indicator">
+                <div className="indicator-fill"></div>
               </div>
             </div>
-            <div
-              class="featured-block"
-            ></div>
+            <div className="featured-block"></div>
           </div>
         </div>
       </div>
