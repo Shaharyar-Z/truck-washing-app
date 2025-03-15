@@ -1819,6 +1819,13 @@ textarea.w-input,textarea.w-select {
   text-decoration: none;
   position: relative
 }
+.w-nav-brand h2{
+  color: #e0a423;
+  margin: 0;
+}
+.error-message {
+  color: #e0a423;
+}
 
 .w-nav-link {
   vertical-align: top;

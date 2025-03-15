@@ -84,7 +84,7 @@ function App() {
       {/* Hero Section */}
       <div className="hero-pricing" id='pricing'>
         <div className="container">
-          <h1>~Pricing Guide</h1>
+          <h1>Pricing Guide</h1>
           <div className="location">
             <MapPin />
             <p>Newcastle, NSW</p>

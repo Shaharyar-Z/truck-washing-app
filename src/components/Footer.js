@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="w-layout-grid detail-footer-grid">
             <div className="detail-footer">
               <div className="text-detail-footer">
-                All rights reserved. Fleetex © 2023.
+                All rights reserved. Fleetex © 2025.
               </div>
             </div>
           </div>

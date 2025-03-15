@@ -34,23 +34,23 @@ const Header = () => {
         <div className="nav-block">
           <div className="nav">
             <a href="/" className="brand w-nav-brand w--current">
-              <img
+              <h2>Fleetex</h2>
+              {/* <img
                 src="https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/64668f1950df97fea941538e_treez%20photo%20profil.jpg"
                 loading="lazy"
                 alt="Logo"
                 className="logo"
-              />
+              /> */}
             </a>
           </div>
           <div className="nav">
-            {/* Navigation Menu */}
             <nav
               role="navigation"
               className={`nav-menu w-nav-menu ${menuOpen ? "open" : ""}`}
             >
               {nav.map((navItem) => (
                 <a
-                  href={`#${navItem.ref}`}
+                  // href={`#${navItem.ref}`}
                   key={navItem.ref}
                   onClick={() => scrollToSection(navItem.ref)}
                   className={navItem.className}
@@ -60,18 +60,15 @@ const Header = () => {
               ))}
             </nav>
 
-            {/* Mobile Menu Button */}
             <div className="menu-button w-nav-button" onClick={toggleMenu}>
               <div className="menu-icon w-icon-nav-menu"></div>
             </div>
           </div>
         </div>
 
-        {/* Overlay for Mobile Menu */}
         {menuOpen && <div className="w-nav-overlay" onClick={toggleMenu}></div>}
       </div>
 
-      {/* CSS for Open Menu */}
       <style>
         {`
         
