@@ -2199,11 +2199,12 @@ figure {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  position: fixed;
+  position: fixed !important;
   top: 28px;
   left: 28px;
   right: 28px;
-  box-shadow: 5px 7px 14px 3px #10221633
+  box-shadow: 5px 7px 14px 3px #10221633;
+  padding: 0 0 !important;
 }
 
 .nav-block {
@@ -4491,7 +4492,7 @@ figure {
   }
 
   .nav-link {
-      background-color: var(--black);
+      background-color: var(--black) !important;
       transition: background-color .2s
   }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -15,9 +16,9 @@ const Banner = () => {
               have to. Because clean isn't just a look-it's your reputation.
             </p>
             <div className="_2-button-block">
-              <a href="/contact" className="tertiary-button w-button">
+              <Link to="/contact" className="tertiary-button w-button">
                 GET A QUOTE
-              </a>
+              </Link>
             </div>
           </div>
         </div>
