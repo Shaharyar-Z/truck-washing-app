@@ -1817,11 +1817,13 @@ textarea.w-input,textarea.w-select {
   float: left;
   color: #333;
   text-decoration: none;
-  position: relative
+  position: relative;
 }
+
 .w-nav-brand h2{
   color: #e0a423;
-  margin: 0;
+  margin: 9px 0;
+  font-weight: bold;
 }
 .error-message {
   color: #e0a423;
@@ -2223,7 +2225,7 @@ figure {
 }
 
 .nav-link {
-  color: #fff;
+  color: #fff !important;
   letter-spacing: 2px;
   text-transform: uppercase;
   flex-direction: column;
@@ -2239,7 +2241,7 @@ figure {
 }
 
 .nav-link:hover,.nav-link.w--current {
-  color: var(--additional-accent);
+  color: var(--additional-accent) !important;
   cursor: pointer;
 }
 
@@ -3549,7 +3551,7 @@ figure {
   border-radius: 10px;
   padding: 24px 16px;
   font-size: 15px;
-  line-height: 1.4px;
+  /* line-height: 1.4px; */
   box-shadow: 0 0 10px #00000003
 }
 
@@ -4494,7 +4496,7 @@ figure {
   }
 
   .nav-link:hover {
-      background-color: var(--black);
+      background-color: var(--black) !important;
   }
 
   .nav-link.top {

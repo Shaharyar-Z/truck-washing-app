@@ -6,6 +6,7 @@ import Contactus from "../components/Contactus";
 import Pricing from "../components/Pricing";
 
 const Home = () => {
+  
   return (
     <>
       <Banner />
