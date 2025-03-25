@@ -2297,7 +2297,7 @@ figure {
 
 .section-hero {
   /* background-image: linear-gradient(#0006,#0006),url(https://cdn.prod.website-files.com/64668e05ceb4d8ba0fa6789d/6467bac81a9e113f28507116_AdobeStock_302024808-min.jpeg); */
-  background-image: linear-gradient(#0006,#0006),url("./../public/images/washing-services.jpg");
+  background-image: linear-gradient(#0006,#0006),url("./../public/images/truck.jpg");
   background-position: 0 0,50% 0;
   background-repeat: repeat,no-repeat;
   background-size: auto,cover;
@@ -2340,7 +2340,8 @@ figure {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 70px;
-  line-height: 100%
+  line-height: 100%;
+  font-weight: bold;
 }
 
 .text-subtitle {
@@ -2350,7 +2351,7 @@ figure {
   max-width: 730px;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 300
+  /* font-weight: 300 */
 }
 .hero-bio {
   color: var(--white);
@@ -4393,10 +4394,10 @@ figure {
 
 @media screen and (min-width: 1280px) {
   .section-hero {
-      background-image:linear-gradient(
-        rgba(0, 0, 0, 0.664),
-        rgba(0, 0, 0, 0.664)
-      ),url("./../public/images/washing-services.jpg");
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.664),
+      rgba(0, 0, 0, 0.664)
+    ),url("./../public/images/truck.jpg");
       background-position: 0 0,0%;
       border-radius: 0
   }
